@@ -1,0 +1,22 @@
+{
+  "name": "HairEtcPittsburgh",
+  "version": "1.0.0",
+  "description": "Angular Material HairEtcPittsburgh.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/fnc314/com.HairEtcPittsburgh-angular-material.git"
+  },
+  "keywords": [
+    "Angular\\",
+    "Material",
+    "Angular",
+    "Material",
+    "HairEtcPittsburgh"
+  ],
+  "author": "fnc314",
+  "license": "ISC"
+}
