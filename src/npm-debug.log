@@ -1,0 +1,835 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.1.18
+3 info using node@v0.10.35
+4 verbose install where, deps [ '/Users/FrancoNColaizzi/Programming/websites/com.HairEtcPittsburgh-angular-material',
+4 verbose install   [ 'angular',
+4 verbose install     'angular-animate',
+4 verbose install     'angular-aria',
+4 verbose install     'angular-material',
+4 verbose install     'angular-ui-router',
+4 verbose install     'http-server',
+4 verbose install     'gulp',
+4 verbose install     'gulp-del',
+4 verbose install     'gulp-uglify' ] ]
+5 verbose install where, peers [ '/Users/FrancoNColaizzi/Programming/websites/com.HairEtcPittsburgh-angular-material',
+5 verbose install   [] ]
+6 info preinstall HairEtcPittsburgh@1.0.0
+7 silly cache add args [ 'angular@^1.3.15', null ]
+8 verbose cache add spec angular@^1.3.15
+9 silly cache add args [ 'angular-animate@^1.3.15', null ]
+10 verbose cache add spec angular-animate@^1.3.15
+11 silly cache add parsed spec { raw: 'angular@^1.3.15',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'angular',
+11 silly cache add   rawSpec: '^1.3.15',
+11 silly cache add   spec: '>=1.3.15 <2.0.0',
+11 silly cache add   type: 'range' }
+12 verbose addNamed angular@>=1.3.15 <2.0.0
+13 silly addNamed semver.valid null
+14 silly addNamed semver.validRange >=1.3.15 <2.0.0
+15 silly addNameRange { name: 'angular', range: '>=1.3.15 <2.0.0', hasData: false }
+16 silly mapToRegistry name angular
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/angular
+20 verbose addNameRange registry:https://registry.npmjs.org/angular not in flight; fetching
+21 silly cache add parsed spec { raw: 'angular-animate@^1.3.15',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'angular-animate',
+21 silly cache add   rawSpec: '^1.3.15',
+21 silly cache add   spec: '>=1.3.15 <2.0.0',
+21 silly cache add   type: 'range' }
+22 verbose addNamed angular-animate@>=1.3.15 <2.0.0
+23 silly addNamed semver.valid null
+24 silly addNamed semver.validRange >=1.3.15 <2.0.0
+25 silly addNameRange { name: 'angular-animate',
+25 silly addNameRange   range: '>=1.3.15 <2.0.0',
+25 silly addNameRange   hasData: false }
+26 silly mapToRegistry name angular-animate
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+30 verbose addNameRange registry:https://registry.npmjs.org/angular-animate not in flight; fetching
+31 silly cache add args [ 'angular-aria@^1.3.15', null ]
+32 verbose cache add spec angular-aria@^1.3.15
+33 silly cache add parsed spec { raw: 'angular-aria@^1.3.15',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'angular-aria',
+33 silly cache add   rawSpec: '^1.3.15',
+33 silly cache add   spec: '>=1.3.15 <2.0.0',
+33 silly cache add   type: 'range' }
+34 verbose addNamed angular-aria@>=1.3.15 <2.0.0
+35 silly addNamed semver.valid null
+36 silly addNamed semver.validRange >=1.3.15 <2.0.0
+37 silly addNameRange { name: 'angular-aria',
+37 silly addNameRange   range: '>=1.3.15 <2.0.0',
+37 silly addNameRange   hasData: false }
+38 silly mapToRegistry name angular-aria
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/angular-aria
+42 verbose addNameRange registry:https://registry.npmjs.org/angular-aria not in flight; fetching
+43 silly cache add args [ 'angular-material@^0.8.3', null ]
+44 verbose cache add spec angular-material@^0.8.3
+45 silly cache add parsed spec { raw: 'angular-material@^0.8.3',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'angular-material',
+45 silly cache add   rawSpec: '^0.8.3',
+45 silly cache add   spec: '>=0.8.3 <0.9.0',
+45 silly cache add   type: 'range' }
+46 verbose addNamed angular-material@>=0.8.3 <0.9.0
+47 silly addNamed semver.valid null
+48 silly addNamed semver.validRange >=0.8.3 <0.9.0
+49 silly addNameRange { name: 'angular-material',
+49 silly addNameRange   range: '>=0.8.3 <0.9.0',
+49 silly addNameRange   hasData: false }
+50 silly mapToRegistry name angular-material
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/angular-material
+54 verbose addNameRange registry:https://registry.npmjs.org/angular-material not in flight; fetching
+55 silly cache add args [ 'angular-ui-router@^0.2.14', null ]
+56 verbose cache add spec angular-ui-router@^0.2.14
+57 silly cache add parsed spec { raw: 'angular-ui-router@^0.2.14',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'angular-ui-router',
+57 silly cache add   rawSpec: '^0.2.14',
+57 silly cache add   spec: '>=0.2.14 <0.3.0',
+57 silly cache add   type: 'range' }
+58 verbose addNamed angular-ui-router@>=0.2.14 <0.3.0
+59 silly addNamed semver.valid null
+60 silly addNamed semver.validRange >=0.2.14 <0.3.0
+61 silly addNameRange { name: 'angular-ui-router',
+61 silly addNameRange   range: '>=0.2.14 <0.3.0',
+61 silly addNameRange   hasData: false }
+62 silly mapToRegistry name angular-ui-router
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/angular-ui-router
+66 verbose addNameRange registry:https://registry.npmjs.org/angular-ui-router not in flight; fetching
+67 silly cache add args [ 'http-server@^0.8.0', null ]
+68 verbose cache add spec http-server@^0.8.0
+69 silly cache add parsed spec { raw: 'http-server@^0.8.0',
+69 silly cache add   scope: null,
+69 silly cache add   name: 'http-server',
+69 silly cache add   rawSpec: '^0.8.0',
+69 silly cache add   spec: '>=0.8.0 <0.9.0',
+69 silly cache add   type: 'range' }
+70 verbose addNamed http-server@>=0.8.0 <0.9.0
+71 silly addNamed semver.valid null
+72 silly addNamed semver.validRange >=0.8.0 <0.9.0
+73 silly addNameRange { name: 'http-server', range: '>=0.8.0 <0.9.0', hasData: false }
+74 silly mapToRegistry name http-server
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/http-server
+78 verbose addNameRange registry:https://registry.npmjs.org/http-server not in flight; fetching
+79 silly cache add args [ 'gulp@^3.8.11', null ]
+80 verbose cache add spec gulp@^3.8.11
+81 silly cache add parsed spec { raw: 'gulp@^3.8.11',
+81 silly cache add   scope: null,
+81 silly cache add   name: 'gulp',
+81 silly cache add   rawSpec: '^3.8.11',
+81 silly cache add   spec: '>=3.8.11 <4.0.0',
+81 silly cache add   type: 'range' }
+82 verbose addNamed gulp@>=3.8.11 <4.0.0
+83 silly addNamed semver.valid null
+84 silly addNamed semver.validRange >=3.8.11 <4.0.0
+85 silly addNameRange { name: 'gulp', range: '>=3.8.11 <4.0.0', hasData: false }
+86 silly mapToRegistry name gulp
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/gulp
+90 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+91 silly cache add args [ 'gulp-del@', null ]
+92 verbose cache add spec gulp-del@
+93 silly cache add parsed spec { raw: 'gulp-del@',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'gulp-del',
+93 silly cache add   rawSpec: '',
+93 silly cache add   spec: '*',
+93 silly cache add   type: 'range' }
+94 verbose addNamed gulp-del@*
+95 silly addNamed semver.valid null
+96 silly addNamed semver.validRange *
+97 silly addNameRange { name: 'gulp-del', range: '*', hasData: false }
+98 silly mapToRegistry name gulp-del
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/gulp-del
+102 verbose addNameRange registry:https://registry.npmjs.org/gulp-del not in flight; fetching
+103 silly cache add args [ 'gulp-uglify@^1.2.0', null ]
+104 verbose cache add spec gulp-uglify@^1.2.0
+105 silly cache add parsed spec { raw: 'gulp-uglify@^1.2.0',
+105 silly cache add   scope: null,
+105 silly cache add   name: 'gulp-uglify',
+105 silly cache add   rawSpec: '^1.2.0',
+105 silly cache add   spec: '>=1.2.0 <2.0.0',
+105 silly cache add   type: 'range' }
+106 verbose addNamed gulp-uglify@>=1.2.0 <2.0.0
+107 silly addNamed semver.valid null
+108 silly addNamed semver.validRange >=1.2.0 <2.0.0
+109 silly addNameRange { name: 'gulp-uglify', range: '>=1.2.0 <2.0.0', hasData: false }
+110 silly mapToRegistry name gulp-uglify
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+114 verbose addNameRange registry:https://registry.npmjs.org/gulp-uglify not in flight; fetching
+115 verbose request uri https://registry.npmjs.org/angular-ui-router
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 19:01:47
+118 verbose request id ed8b954c81cbc1a7
+119 http request GET https://registry.npmjs.org/angular-ui-router
+120 verbose request uri https://registry.npmjs.org/gulp-del
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 19:01:47
+123 http request GET https://registry.npmjs.org/gulp-del
+124 verbose request uri https://registry.npmjs.org/angular-aria
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 19:01:47
+127 verbose etag "50-47ac56ab5daf491ad0740c15fbcdfd6e"
+128 http request GET https://registry.npmjs.org/angular-aria
+129 verbose request uri https://registry.npmjs.org/angular
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 19:01:47
+132 verbose etag "BMTTGPLD293EIK5WJ7H5UWI1F"
+133 http request GET https://registry.npmjs.org/angular
+134 verbose request uri https://registry.npmjs.org/angular-material
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 19:01:47
+137 verbose etag "1P152UT04O6GXV4H3N8HTQUVP"
+138 http request GET https://registry.npmjs.org/angular-material
+139 verbose request uri https://registry.npmjs.org/angular-animate
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 19:01:47
+142 verbose etag "9FWJ0B8SUG1PLT23B44UE2NSB"
+143 http request GET https://registry.npmjs.org/angular-animate
+144 verbose request uri https://registry.npmjs.org/http-server
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 19:01:47
+147 verbose etag "F0DN39T1DZVH9POUFF8KSXBXC"
+148 http request GET https://registry.npmjs.org/http-server
+149 verbose request uri https://registry.npmjs.org/gulp
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 19:01:47
+152 verbose etag "BELTTOQOXGW82NS5CAW6HVPC5"
+153 http request GET https://registry.npmjs.org/gulp
+154 verbose request uri https://registry.npmjs.org/gulp-uglify
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 19:01:47
+157 verbose etag "CC99DD33J2N7W2SZTB0XV55HF"
+158 http request GET https://registry.npmjs.org/gulp-uglify
+159 http 200 https://registry.npmjs.org/angular-material
+160 silly get cb [ 200,
+160 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+160 silly get     etag: '"44B6BHXU9D97OPO39ZGWRY65X"',
+160 silly get     'content-type': 'application/json',
+160 silly get     'cache-control': 'max-age=60',
+160 silly get     'content-length': '15625',
+160 silly get     'accept-ranges': 'bytes',
+160 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     age: '0',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-atl6228-ATL',
+160 silly get     'x-cache': 'MISS',
+160 silly get     'x-cache-hits': '0',
+160 silly get     'x-timer': 'S1431212507.998269,VS0,VE47',
+160 silly get     vary: 'Accept' } ]
+161 silly addNameRange number 2 { name: 'angular-material',
+161 silly addNameRange   range: '>=0.8.3 <0.9.0',
+161 silly addNameRange   hasData: true }
+162 silly addNameRange versions [ 'angular-material',
+162 silly addNameRange   [ '0.7.1', '0.8.0', '0.8.1', '0.8.2', '0.8.3', '0.9.2' ] ]
+163 verbose addNamed angular-material@0.8.3
+164 silly addNamed semver.valid 0.8.3
+165 silly addNamed semver.validRange 0.8.3
+166 silly mapToRegistry name angular-material
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/angular-material
+170 verbose addRemoteTarball https://registry.npmjs.org/angular-material/-/angular-material-0.8.3.tgz not in flight; adding
+171 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-material/-/angular-material-0.8.3.tgz',
+171 verbose addRemoteTarball   'adb6a93f6d2718d6756f0fcaead61aedc248208e' ]
+172 info retry fetch attempt 1 at 19:01:48
+173 info attempt registry request try #1 at 19:01:48
+174 http fetch GET https://registry.npmjs.org/angular-material/-/angular-material-0.8.3.tgz
+175 http 200 https://registry.npmjs.org/angular
+176 silly get cb [ 200,
+176 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+176 silly get     etag: '"4X7FNP6HBTPJLSQJYWLBM2G3Z"',
+176 silly get     'content-type': 'application/json',
+176 silly get     'cache-control': 'max-age=60',
+176 silly get     'content-length': '90036',
+176 silly get     'accept-ranges': 'bytes',
+176 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+176 silly get     via: '1.1 varnish',
+176 silly get     age: '43',
+176 silly get     connection: 'keep-alive',
+176 silly get     'x-served-by': 'cache-atl6233-ATL',
+176 silly get     'x-cache': 'HIT',
+176 silly get     'x-cache-hits': '1',
+176 silly get     'x-timer': 'S1431212508.002753,VS0,VE1',
+176 silly get     vary: 'Accept' } ]
+177 silly addNameRange number 2 { name: 'angular', range: '>=1.3.15 <2.0.0', hasData: true }
+178 silly addNameRange versions [ 'angular',
+178 silly addNameRange   [ '0.0.1',
+178 silly addNameRange     '0.0.1-1',
+178 silly addNameRange     '0.0.1-2',
+178 silly addNameRange     '0.0.2',
+178 silly addNameRange     '0.0.3',
+178 silly addNameRange     '0.0.4',
+178 silly addNameRange     '1.0.0',
+178 silly addNameRange     '1.0.1',
+178 silly addNameRange     '1.0.2',
+178 silly addNameRange     '1.0.3',
+178 silly addNameRange     '1.0.4',
+178 silly addNameRange     '1.0.5',
+178 silly addNameRange     '1.0.6',
+178 silly addNameRange     '1.0.7',
+178 silly addNameRange     '1.0.8',
+178 silly addNameRange     '1.1.0',
+178 silly addNameRange     '1.1.1',
+178 silly addNameRange     '1.1.2',
+178 silly addNameRange     '1.1.3',
+178 silly addNameRange     '1.1.4',
+178 silly addNameRange     '1.1.5',
+178 silly addNameRange     '1.2.0',
+178 silly addNameRange     '1.2.1',
+178 silly addNameRange     '1.2.2',
+178 silly addNameRange     '1.2.3',
+178 silly addNameRange     '1.2.4',
+178 silly addNameRange     '1.2.5',
+178 silly addNameRange     '1.2.6',
+178 silly addNameRange     '1.2.7',
+178 silly addNameRange     '1.2.8',
+178 silly addNameRange     '1.2.9',
+178 silly addNameRange     '1.2.10',
+178 silly addNameRange     '1.2.11',
+178 silly addNameRange     '1.2.12',
+178 silly addNameRange     '1.2.13',
+178 silly addNameRange     '1.2.14',
+178 silly addNameRange     '1.2.15',
+178 silly addNameRange     '1.2.16',
+178 silly addNameRange     '1.2.17',
+178 silly addNameRange     '1.2.18',
+178 silly addNameRange     '1.2.19',
+178 silly addNameRange     '1.2.20',
+178 silly addNameRange     '1.2.21',
+178 silly addNameRange     '1.2.22',
+178 silly addNameRange     '1.2.23',
+178 silly addNameRange     '1.3.0-rc.5',
+178 silly addNameRange     '1.3.0',
+178 silly addNameRange     '1.3.1',
+178 silly addNameRange     '1.3.2',
+178 silly addNameRange     '1.3.3',
+178 silly addNameRange     '1.3.4-build.3588',
+178 silly addNameRange     '1.2.27',
+178 silly addNameRange     '1.3.4',
+178 silly addNameRange     '1.3.5',
+178 silly addNameRange     '1.3.6',
+178 silly addNameRange     '1.3.7',
+178 silly addNameRange     '1.2.28',
+178 silly addNameRange     '1.3.8',
+178 silly addNameRange     '1.4.0-beta.0',
+178 silly addNameRange     '1.3.9',
+178 silly addNameRange     '1.3.10',
+178 silly addNameRange     '1.4.0-beta.1',
+178 silly addNameRange     '1.4.0-beta.2',
+178 silly addNameRange     '1.3.11',
+178 silly addNameRange     '1.4.0-beta.3',
+178 silly addNameRange     '1.3.12',
+178 silly addNameRange     '1.3.13',
+178 silly addNameRange     '1.4.0-beta.4',
+178 silly addNameRange     '1.3.14',
+178 silly addNameRange     '1.4.0-beta.5',
+178 silly addNameRange     '1.4.0-beta.6',
+178 silly addNameRange     '1.3.15',
+178 silly addNameRange     '1.4.0-rc.0',
+178 silly addNameRange     '1.4.0-rc.1' ] ]
+179 verbose addNamed angular@1.3.15
+180 silly addNamed semver.valid 1.3.15
+181 silly addNamed semver.validRange 1.3.15
+182 silly mapToRegistry name angular
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry uri https://registry.npmjs.org/angular
+186 verbose addRemoteTarball https://registry.npmjs.org/angular/-/angular-1.3.15.tgz not in flight; adding
+187 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular/-/angular-1.3.15.tgz',
+187 verbose addRemoteTarball   '797d0947869073af96d92366fb0daf98a35d1cd1' ]
+188 info retry fetch attempt 1 at 19:01:48
+189 info attempt registry request try #1 at 19:01:48
+190 http fetch GET https://registry.npmjs.org/angular/-/angular-1.3.15.tgz
+191 http 200 https://registry.npmjs.org/http-server
+192 silly get cb [ 200,
+192 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+192 silly get     etag: '"AVQU812LDBL2FB3047A4SF2NK"',
+192 silly get     'content-type': 'application/json',
+192 silly get     'cache-control': 'max-age=60',
+192 silly get     'content-length': '44679',
+192 silly get     'accept-ranges': 'bytes',
+192 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+192 silly get     via: '1.1 varnish',
+192 silly get     age: '0',
+192 silly get     connection: 'keep-alive',
+192 silly get     'x-served-by': 'cache-atl6233-ATL',
+192 silly get     'x-cache': 'HIT',
+192 silly get     'x-cache-hits': '1',
+192 silly get     'x-timer': 'S1431212508.272277,VS0,VE33',
+192 silly get     vary: 'Accept' } ]
+193 http 404 https://registry.npmjs.org/gulp-del
+194 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+194 verbose headers   'content-type': 'application/json',
+194 verbose headers   'cache-control': 'max-age=0',
+194 verbose headers   'content-length': '51',
+194 verbose headers   'accept-ranges': 'bytes',
+194 verbose headers   date: 'Sat, 09 May 2015 23:01:48 GMT',
+194 verbose headers   via: '1.1 varnish',
+194 verbose headers   age: '0',
+194 verbose headers   connection: 'keep-alive',
+194 verbose headers   'x-served-by': 'cache-atl6235-ATL',
+194 verbose headers   'x-cache': 'MISS',
+194 verbose headers   'x-cache-hits': '0',
+194 verbose headers   'x-timer': 'S1431212507.996141,VS0,VE360' }
+195 silly get cb [ 404,
+195 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+195 silly get     'content-type': 'application/json',
+195 silly get     'cache-control': 'max-age=0',
+195 silly get     'content-length': '51',
+195 silly get     'accept-ranges': 'bytes',
+195 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+195 silly get     via: '1.1 varnish',
+195 silly get     age: '0',
+195 silly get     connection: 'keep-alive',
+195 silly get     'x-served-by': 'cache-atl6235-ATL',
+195 silly get     'x-cache': 'MISS',
+195 silly get     'x-cache-hits': '0',
+195 silly get     'x-timer': 'S1431212507.996141,VS0,VE360' } ]
+196 silly addNameRange number 2 { name: 'http-server', range: '>=0.8.0 <0.9.0', hasData: true }
+197 silly addNameRange versions [ 'http-server',
+197 silly addNameRange   [ '0.1.0',
+197 silly addNameRange     '0.1.1',
+197 silly addNameRange     '0.1.3',
+197 silly addNameRange     '0.2.1',
+197 silly addNameRange     '0.2.2',
+197 silly addNameRange     '0.2.3',
+197 silly addNameRange     '0.2.4',
+197 silly addNameRange     '0.2.5',
+197 silly addNameRange     '0.2.6',
+197 silly addNameRange     '0.2.9',
+197 silly addNameRange     '0.3.0',
+197 silly addNameRange     '0.4.0',
+197 silly addNameRange     '0.4.1',
+197 silly addNameRange     '0.5.0',
+197 silly addNameRange     '0.5.1',
+197 silly addNameRange     '0.5.2',
+197 silly addNameRange     '0.5.3',
+197 silly addNameRange     '0.5.5',
+197 silly addNameRange     '0.6.0',
+197 silly addNameRange     '0.6.1',
+197 silly addNameRange     '0.7.0',
+197 silly addNameRange     '0.7.1',
+197 silly addNameRange     '0.7.2',
+197 silly addNameRange     '0.7.3',
+197 silly addNameRange     '0.7.4',
+197 silly addNameRange     '0.7.5',
+197 silly addNameRange     '0.8.0' ] ]
+198 verbose addNamed http-server@0.8.0
+199 silly addNamed semver.valid 0.8.0
+200 silly addNamed semver.validRange 0.8.0
+201 silly mapToRegistry name http-server
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/http-server
+205 verbose addRemoteTarball https://registry.npmjs.org/http-server/-/http-server-0.8.0.tgz not in flight; adding
+206 verbose addRemoteTarball [ 'https://registry.npmjs.org/http-server/-/http-server-0.8.0.tgz',
+206 verbose addRemoteTarball   'd4b671781ec6bf9fa6a311cd1df683b0b37b1491' ]
+207 info retry fetch attempt 1 at 19:01:48
+208 info attempt registry request try #1 at 19:01:48
+209 http fetch GET https://registry.npmjs.org/http-server/-/http-server-0.8.0.tgz
+210 http 200 https://registry.npmjs.org/angular-ui-router
+211 silly get cb [ 200,
+211 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+211 silly get     etag: '"94N6DN5SI0ZQLXZXP9H2R94UK"',
+211 silly get     'content-type': 'application/json',
+211 silly get     'cache-control': 'max-age=60',
+211 silly get     'content-length': '22337',
+211 silly get     'accept-ranges': 'bytes',
+211 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+211 silly get     via: '1.1 varnish',
+211 silly get     age: '0',
+211 silly get     connection: 'keep-alive',
+211 silly get     'x-served-by': 'cache-atl6222-ATL',
+211 silly get     'x-cache': 'MISS',
+211 silly get     'x-cache-hits': '0',
+211 silly get     'x-timer': 'S1431212508.015949,VS0,VE356',
+211 silly get     vary: 'Accept' } ]
+212 silly addNameRange number 2 { name: 'angular-ui-router',
+212 silly addNameRange   range: '>=0.2.14 <0.3.0',
+212 silly addNameRange   hasData: true }
+213 silly addNameRange versions [ 'angular-ui-router',
+213 silly addNameRange   [ '0.2.7', '0.2.8', '0.2.10', '0.2.11', '0.2.13', '0.2.14' ] ]
+214 verbose addNamed angular-ui-router@0.2.14
+215 silly addNamed semver.valid 0.2.14
+216 silly addNamed semver.validRange 0.2.14
+217 silly mapToRegistry name angular-ui-router
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/angular-ui-router
+221 verbose addRemoteTarball https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.14.tgz not in flight; adding
+222 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.14.tgz',
+222 verbose addRemoteTarball   'efe5920bbd3b8acffde5bb0573065199c2a17357' ]
+223 info retry fetch attempt 1 at 19:01:48
+224 info attempt registry request try #1 at 19:01:48
+225 http fetch GET https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.14.tgz
+226 http fetch 200 https://registry.npmjs.org/angular-material/-/angular-material-0.8.3.tgz
+227 http 200 https://registry.npmjs.org/angular-aria
+228 silly get cb [ 200,
+228 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+228 silly get     etag: '"51K27NOMGJVFX3KOM3PFWKWI2"',
+228 silly get     'content-type': 'application/json',
+228 silly get     'cache-control': 'max-age=60',
+228 silly get     'content-length': '32003',
+228 silly get     'accept-ranges': 'bytes',
+228 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+228 silly get     via: '1.1 varnish',
+228 silly get     age: '0',
+228 silly get     connection: 'keep-alive',
+228 silly get     'x-served-by': 'cache-atl6228-ATL',
+228 silly get     'x-cache': 'MISS',
+228 silly get     'x-cache-hits': '0',
+228 silly get     'x-timer': 'S1431212507.998274,VS0,VE437',
+228 silly get     vary: 'Accept' } ]
+229 silly addNameRange number 2 { name: 'angular-aria', range: '>=1.3.15 <2.0.0', hasData: true }
+230 silly addNameRange versions [ 'angular-aria',
+230 silly addNameRange   [ '1.3.0-rc.5',
+230 silly addNameRange     '1.3.0',
+230 silly addNameRange     '1.3.1',
+230 silly addNameRange     '1.3.2',
+230 silly addNameRange     '1.3.3',
+230 silly addNameRange     '1.3.4',
+230 silly addNameRange     '1.3.5',
+230 silly addNameRange     '1.3.6',
+230 silly addNameRange     '1.3.7',
+230 silly addNameRange     '1.3.8',
+230 silly addNameRange     '1.4.0-beta.0',
+230 silly addNameRange     '1.3.9',
+230 silly addNameRange     '1.3.10',
+230 silly addNameRange     '1.4.0-beta.1',
+230 silly addNameRange     '1.4.0-beta.2',
+230 silly addNameRange     '1.3.11',
+230 silly addNameRange     '1.4.0-beta.3',
+230 silly addNameRange     '1.3.12',
+230 silly addNameRange     '1.3.13',
+230 silly addNameRange     '1.4.0-beta.4',
+230 silly addNameRange     '1.3.14',
+230 silly addNameRange     '1.4.0-beta.5',
+230 silly addNameRange     '1.4.0-beta.6',
+230 silly addNameRange     '1.3.15',
+230 silly addNameRange     '1.4.0-rc.0',
+230 silly addNameRange     '1.4.0-rc.1' ] ]
+231 verbose addNamed angular-aria@1.3.15
+232 silly addNamed semver.valid 1.3.15
+233 silly addNamed semver.validRange 1.3.15
+234 silly mapToRegistry name angular-aria
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npmjs.org/
+237 silly mapToRegistry uri https://registry.npmjs.org/angular-aria
+238 verbose addRemoteTarball https://registry.npmjs.org/angular-aria/-/angular-aria-1.3.15.tgz not in flight; adding
+239 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-aria/-/angular-aria-1.3.15.tgz',
+239 verbose addRemoteTarball   '16b1a7093dce90a6fa4c6bb8e786753874f1e693' ]
+240 info retry fetch attempt 1 at 19:01:48
+241 info attempt registry request try #1 at 19:01:48
+242 http fetch GET https://registry.npmjs.org/angular-aria/-/angular-aria-1.3.15.tgz
+243 http 200 https://registry.npmjs.org/gulp-uglify
+244 silly get cb [ 200,
+244 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+244 silly get     etag: '"3KRCA2MGH6SZDAJXRKFRNB6SF"',
+244 silly get     'content-type': 'application/json',
+244 silly get     'cache-control': 'max-age=60',
+244 silly get     'content-length': '25726',
+244 silly get     'accept-ranges': 'bytes',
+244 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+244 silly get     via: '1.1 varnish',
+244 silly get     age: '0',
+244 silly get     connection: 'keep-alive',
+244 silly get     'x-served-by': 'cache-atl6235-ATL',
+244 silly get     'x-cache': 'HIT',
+244 silly get     'x-cache-hits': '1',
+244 silly get     'x-timer': 'S1431212508.428492,VS0,VE88',
+244 silly get     vary: 'Accept' } ]
+245 silly addNameRange number 2 { name: 'gulp-uglify', range: '>=1.2.0 <2.0.0', hasData: true }
+246 silly addNameRange versions [ 'gulp-uglify',
+246 silly addNameRange   [ '0.0.1',
+246 silly addNameRange     '0.0.3',
+246 silly addNameRange     '0.0.4',
+246 silly addNameRange     '0.1.0',
+246 silly addNameRange     '0.2.0',
+246 silly addNameRange     '0.2.1',
+246 silly addNameRange     '0.3.0',
+246 silly addNameRange     '0.3.1',
+246 silly addNameRange     '0.3.2',
+246 silly addNameRange     '1.0.0-0',
+246 silly addNameRange     '1.0.0',
+246 silly addNameRange     '1.0.1',
+246 silly addNameRange     '1.0.2',
+246 silly addNameRange     '1.1.0',
+246 silly addNameRange     '1.2.0' ] ]
+247 verbose addNamed gulp-uglify@1.2.0
+248 silly addNamed semver.valid 1.2.0
+249 silly addNamed semver.validRange 1.2.0
+250 silly mapToRegistry name gulp-uglify
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+254 verbose addRemoteTarball https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.2.0.tgz not in flight; adding
+255 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.2.0.tgz',
+255 verbose addRemoteTarball   '760a86a5cf68453e0036130763dde2952093e38b' ]
+256 info retry fetch attempt 1 at 19:01:48
+257 info attempt registry request try #1 at 19:01:48
+258 http fetch GET https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.2.0.tgz
+259 http fetch 200 https://registry.npmjs.org/angular/-/angular-1.3.15.tgz
+260 http 200 https://registry.npmjs.org/gulp
+261 silly get cb [ 200,
+261 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+261 silly get     etag: '"EQ8ZCZKF3Y2D2KP2Z23OEF9X1"',
+261 silly get     'content-type': 'application/json',
+261 silly get     'cache-control': 'max-age=60',
+261 silly get     'content-length': '101468',
+261 silly get     'accept-ranges': 'bytes',
+261 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+261 silly get     via: '1.1 varnish',
+261 silly get     age: '43',
+261 silly get     connection: 'keep-alive',
+261 silly get     'x-served-by': 'cache-atl6233-ATL',
+261 silly get     'x-cache': 'HIT',
+261 silly get     'x-cache-hits': '1',
+261 silly get     'x-timer': 'S1431212508.430457,VS0,VE1',
+261 silly get     vary: 'Accept' } ]
+262 silly addNameRange number 2 { name: 'gulp', range: '>=3.8.11 <4.0.0', hasData: true }
+263 silly addNameRange versions [ 'gulp',
+263 silly addNameRange   [ '0.0.1',
+263 silly addNameRange     '0.0.2',
+263 silly addNameRange     '0.0.3',
+263 silly addNameRange     '0.0.4',
+263 silly addNameRange     '0.0.5',
+263 silly addNameRange     '0.0.7',
+263 silly addNameRange     '0.0.8',
+263 silly addNameRange     '0.0.9',
+263 silly addNameRange     '0.1.0',
+263 silly addNameRange     '0.2.0',
+263 silly addNameRange     '1.0.0',
+263 silly addNameRange     '1.1.0',
+263 silly addNameRange     '1.2.0',
+263 silly addNameRange     '1.2.1',
+263 silly addNameRange     '2.0.0',
+263 silly addNameRange     '2.0.1',
+263 silly addNameRange     '2.1.0',
+263 silly addNameRange     '2.2.0',
+263 silly addNameRange     '2.3.0',
+263 silly addNameRange     '2.4.0',
+263 silly addNameRange     '2.4.1',
+263 silly addNameRange     '2.6.0',
+263 silly addNameRange     '2.6.1',
+263 silly addNameRange     '2.7.0',
+263 silly addNameRange     '3.0.0',
+263 silly addNameRange     '3.1.1',
+263 silly addNameRange     '3.1.2',
+263 silly addNameRange     '3.1.3',
+263 silly addNameRange     '3.1.4',
+263 silly addNameRange     '3.2.0',
+263 silly addNameRange     '3.2.1',
+263 silly addNameRange     '3.2.2',
+263 silly addNameRange     '3.2.3',
+263 silly addNameRange     '3.2.4',
+263 silly addNameRange     '3.2.5',
+263 silly addNameRange     '3.3.0',
+263 silly addNameRange     '3.3.1',
+263 silly addNameRange     '3.3.2',
+263 silly addNameRange     '3.3.4',
+263 silly addNameRange     '3.4.0',
+263 silly addNameRange     '3.5.0',
+263 silly addNameRange     '3.5.1',
+263 silly addNameRange     '3.5.2',
+263 silly addNameRange     '3.5.5',
+263 silly addNameRange     '3.5.6',
+263 silly addNameRange     '3.6.0',
+263 silly addNameRange     '3.6.1',
+263 silly addNameRange     '3.6.2',
+263 silly addNameRange     '3.7.0',
+263 silly addNameRange     '3.8.0',
+263 silly addNameRange     '3.8.1',
+263 silly addNameRange     '3.8.2',
+263 silly addNameRange     '3.8.3',
+263 silly addNameRange     '3.8.4',
+263 silly addNameRange     '3.8.5',
+263 silly addNameRange     '3.8.6',
+263 silly addNameRange     '3.8.7',
+263 silly addNameRange     '3.8.8',
+263 silly addNameRange     '3.8.9',
+263 silly addNameRange     '3.8.10',
+263 silly addNameRange     '3.8.11' ] ]
+264 verbose addNamed gulp@3.8.11
+265 silly addNamed semver.valid 3.8.11
+266 silly addNamed semver.validRange 3.8.11
+267 silly mapToRegistry name gulp
+268 silly mapToRegistry using default registry
+269 silly mapToRegistry registry https://registry.npmjs.org/
+270 silly mapToRegistry uri https://registry.npmjs.org/gulp
+271 verbose addRemoteTarball https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz not in flight; adding
+272 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz',
+272 verbose addRemoteTarball   'd557e0a7283eb4136491969b0497767972f1d28a' ]
+273 info retry fetch attempt 1 at 19:01:48
+274 info attempt registry request try #1 at 19:01:48
+275 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz
+276 http fetch 200 https://registry.npmjs.org/http-server/-/http-server-0.8.0.tgz
+277 http fetch 200 https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.14.tgz
+278 http 200 https://registry.npmjs.org/angular-animate
+279 silly get cb [ 200,
+279 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+279 silly get     etag: '"BXF6GQS1Z8NBPUP2GIGHK9TJZ"',
+279 silly get     'content-type': 'application/json',
+279 silly get     'cache-control': 'max-age=60',
+279 silly get     'content-length': '44526',
+279 silly get     'accept-ranges': 'bytes',
+279 silly get     date: 'Sat, 09 May 2015 23:01:48 GMT',
+279 silly get     via: '1.1 varnish',
+279 silly get     age: '0',
+279 silly get     connection: 'keep-alive',
+279 silly get     'x-served-by': 'cache-atl6228-ATL',
+279 silly get     'x-cache': 'HIT',
+279 silly get     'x-cache-hits': '1',
+279 silly get     'x-timer': 'S1431212508.224092,VS0,VE358',
+279 silly get     vary: 'Accept' } ]
+280 silly addNameRange number 2 { name: 'angular-animate',
+280 silly addNameRange   range: '>=1.3.15 <2.0.0',
+280 silly addNameRange   hasData: true }
+281 silly addNameRange versions [ 'angular-animate',
+281 silly addNameRange   [ '0.0.1',
+281 silly addNameRange     '0.0.2',
+281 silly addNameRange     '1.2.19-build.256',
+281 silly addNameRange     '1.2.16',
+281 silly addNameRange     '1.2.23',
+281 silly addNameRange     '1.3.0-rc.5',
+281 silly addNameRange     '1.3.0',
+281 silly addNameRange     '1.3.1',
+281 silly addNameRange     '1.3.2',
+281 silly addNameRange     '1.3.3',
+281 silly addNameRange     '1.3.4-build.3588',
+281 silly addNameRange     '1.2.27',
+281 silly addNameRange     '1.3.4',
+281 silly addNameRange     '1.3.5',
+281 silly addNameRange     '1.3.6',
+281 silly addNameRange     '1.3.7',
+281 silly addNameRange     '1.2.28',
+281 silly addNameRange     '1.3.8',
+281 silly addNameRange     '1.4.0-beta.0',
+281 silly addNameRange     '1.3.9',
+281 silly addNameRange     '1.3.10',
+281 silly addNameRange     '1.4.0-beta.1',
+281 silly addNameRange     '1.4.0-beta.2',
+281 silly addNameRange     '1.3.11',
+281 silly addNameRange     '1.4.0-beta.3',
+281 silly addNameRange     '1.3.12',
+281 silly addNameRange     '1.3.13',
+281 silly addNameRange     '1.4.0-beta.4',
+281 silly addNameRange     '1.3.14',
+281 silly addNameRange     '1.4.0-beta.5',
+281 silly addNameRange     '1.4.0-beta.6',
+281 silly addNameRange     '1.3.15',
+281 silly addNameRange     '1.4.0-rc.0',
+281 silly addNameRange     '1.4.0-rc.1' ] ]
+282 verbose addNamed angular-animate@1.3.15
+283 silly addNamed semver.valid 1.3.15
+284 silly addNamed semver.validRange 1.3.15
+285 silly mapToRegistry name angular-animate
+286 silly mapToRegistry using default registry
+287 silly mapToRegistry registry https://registry.npmjs.org/
+288 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+289 verbose addRemoteTarball https://registry.npmjs.org/angular-animate/-/angular-animate-1.3.15.tgz not in flight; adding
+290 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-animate/-/angular-animate-1.3.15.tgz',
+290 verbose addRemoteTarball   '60c693fa2cd682578ab5a896d7d970d5ebd2707f' ]
+291 info retry fetch attempt 1 at 19:01:49
+292 info attempt registry request try #1 at 19:01:49
+293 http fetch GET https://registry.npmjs.org/angular-animate/-/angular-animate-1.3.15.tgz
+294 http fetch 200 https://registry.npmjs.org/angular-aria/-/angular-aria-1.3.15.tgz
+295 silly fetchAndShaCheck shasum 16b1a7093dce90a6fa4c6bb8e786753874f1e693
+296 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/angular-aria/-/angular-aria-1.3.15.tgz not in flight; adding
+297 verbose addTmpTarball already have metadata; skipping unpack for angular-aria@1.3.15
+298 silly cache afterAdd angular-aria@1.3.15
+299 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-aria/1.3.15/package/package.json not in flight; writing
+300 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-aria/1.3.15/package/package.json written
+301 http fetch 200 https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.2.0.tgz
+302 silly fetchAndShaCheck shasum 760a86a5cf68453e0036130763dde2952093e38b
+303 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.2.0.tgz not in flight; adding
+304 verbose addTmpTarball already have metadata; skipping unpack for gulp-uglify@1.2.0
+305 silly cache afterAdd gulp-uglify@1.2.0
+306 verbose afterAdd /Users/FrancoNColaizzi/.npm/gulp-uglify/1.2.0/package/package.json not in flight; writing
+307 verbose afterAdd /Users/FrancoNColaizzi/.npm/gulp-uglify/1.2.0/package/package.json written
+308 http fetch 200 https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz
+309 silly fetchAndShaCheck shasum d557e0a7283eb4136491969b0497767972f1d28a
+310 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/gulp/-/gulp-3.8.11.tgz not in flight; adding
+311 verbose addTmpTarball already have metadata; skipping unpack for gulp@3.8.11
+312 silly cache afterAdd gulp@3.8.11
+313 verbose afterAdd /Users/FrancoNColaizzi/.npm/gulp/3.8.11/package/package.json not in flight; writing
+314 verbose afterAdd /Users/FrancoNColaizzi/.npm/gulp/3.8.11/package/package.json written
+315 http fetch 200 https://registry.npmjs.org/angular-animate/-/angular-animate-1.3.15.tgz
+316 silly fetchAndShaCheck shasum 60c693fa2cd682578ab5a896d7d970d5ebd2707f
+317 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/angular-animate/-/angular-animate-1.3.15.tgz not in flight; adding
+318 verbose addTmpTarball already have metadata; skipping unpack for angular-animate@1.3.15
+319 silly cache afterAdd angular-animate@1.3.15
+320 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-animate/1.3.15/package/package.json not in flight; writing
+321 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-animate/1.3.15/package/package.json written
+322 silly fetchAndShaCheck shasum adb6a93f6d2718d6756f0fcaead61aedc248208e
+323 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/angular-material/-/angular-material-0.8.3.tgz not in flight; adding
+324 verbose addTmpTarball already have metadata; skipping unpack for angular-material@0.8.3
+325 silly cache afterAdd angular-material@0.8.3
+326 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-material/0.8.3/package/package.json not in flight; writing
+327 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-material/0.8.3/package/package.json written
+328 silly fetchAndShaCheck shasum 797d0947869073af96d92366fb0daf98a35d1cd1
+329 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/angular/-/angular-1.3.15.tgz not in flight; adding
+330 verbose addTmpTarball already have metadata; skipping unpack for angular@1.3.15
+331 silly cache afterAdd angular@1.3.15
+332 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular/1.3.15/package/package.json not in flight; writing
+333 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular/1.3.15/package/package.json written
+334 silly fetchAndShaCheck shasum efe5920bbd3b8acffde5bb0573065199c2a17357
+335 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.14.tgz not in flight; adding
+336 verbose addTmpTarball already have metadata; skipping unpack for angular-ui-router@0.2.14
+337 silly cache afterAdd angular-ui-router@0.2.14
+338 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-ui-router/0.2.14/package/package.json not in flight; writing
+339 verbose afterAdd /Users/FrancoNColaizzi/.npm/angular-ui-router/0.2.14/package/package.json written
+340 silly fetchAndShaCheck shasum d4b671781ec6bf9fa6a311cd1df683b0b37b1491
+341 verbose addTmpTarball /var/folders/j2/rhc_ktl93fj6dh1km4xh_j5r0000gn/T/npm-12702-ddb6c75f/registry.npmjs.org/http-server/-/http-server-0.8.0.tgz not in flight; adding
+342 verbose addTmpTarball already have metadata; skipping unpack for http-server@0.8.0
+343 silly cache afterAdd http-server@0.8.0
+344 verbose afterAdd /Users/FrancoNColaizzi/.npm/http-server/0.8.0/package/package.json not in flight; writing
+345 verbose afterAdd /Users/FrancoNColaizzi/.npm/http-server/0.8.0/package/package.json written
+346 verbose stack Error: 404 Not Found: gulp-del
+346 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:241:14)
+346 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+346 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:373:22)
+346 verbose stack     at Request.emit (events.js:98:17)
+346 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1318:14)
+346 verbose stack     at Request.emit (events.js:117:20)
+346 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1266:12)
+346 verbose stack     at IncomingMessage.emit (events.js:117:20)
+346 verbose stack     at _stream_readable.js:944:16
+346 verbose stack     at process._tickCallback (node.js:442:13)
+347 verbose statusCode 404
+348 verbose pkgid gulp-del
+349 verbose cwd /Users/FrancoNColaizzi/Programming/websites/com.HairEtcPittsburgh-angular-material/src
+350 error Darwin 14.3.0
+351 error argv "node" "/usr/local/bin/npm" "install"
+352 error node v0.10.35
+353 error npm  v2.1.18
+354 error code E404
+355 error 404 Not Found: gulp-del
+355 error 404
+355 error 404 'gulp-del' is not in the npm registry.
+355 error 404 You should bug the author to publish it (or use the name yourself!)
+355 error 404 It was specified as a dependency of 'HairEtcPittsburgh'
+355 error 404
+355 error 404 Note that you can also install from a
+355 error 404 tarball, folder, http url, or git url.
+356 verbose exit [ 1, true ]
